@@ -5,10 +5,65 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ОБЛІК</title>
-        <style></style>
-        <script></script>
+        <link rel="stylesheet" href="stl\mainstile.css">
+        <script src="scr/m.js"></script>
     </head>
     <body>
+        <h1>Заголовок</h1>
+        <div>
+            <input type="file" id="files" name="files[]" multiple />
+            <output id="list"></output>
+        </div>
+        <h1>Заголовок2</h1>
+        Просто текст
+        <button id="getXMLfile" onclick="loadXML()">Отримати XML</button>
         
+        <div id="prodavez">Тестування DIV</div>
+        <form action="">
+            <input type="text" placeholder="Name" name="full_name">
+            <input type="password" placeholder="Password" name="password">
+            <input type="submit">
+            <div>
+                Favorite Color:
+                <input name="color" type="radio" value="blue"> Blue
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="yellow"> Yellow
+                <input name="color" type="radio" value="red"> Red
+            </div> 
+        </form>
+        Впорядкований список
+        <ol>
+            <li>First</li>
+            <li>second</li>
+        </ol>
+        Не впорядкований список
+        <ul>
+            <li>first</li>
+            <li>second</li>
+        </ul>
+        <img src="img/vovka.jpg" alt="Vovka" width="50">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Океан</th>
+                    <th>Середня гибина</th>
+                    <th>Найбільша глибина</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>Тихий</td>
+                    <td>4 208 m</td>
+                    <td>10 911 m</td>
+                </tr>
+                <tr>
+                    <td>Атлантичний</td>
+                    <td>3 646 m</td>
+                    <td>8 486 m</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="D:\INST\OTH\PRS\CS50\vWebDes\vlltse.github.io\letters.html">letters</a>
+
     </body>
 </html>
